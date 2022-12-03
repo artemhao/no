@@ -14,7 +14,7 @@ video.Size = UDim2.new(1,0,1,0)
 local Name = "imdead.mp4"
 
 if not isfile(Name) then
-    writefile(Name, game:HttpGet("https://github.com/artemhao/bruh/blob/main/bobgoisfat.mp4?raw=true"))
+    writefile(Name, game:HttpGet("https://github.com/artemhao/bruh/blob/main.lua/bobgoisfat.mp4?raw=true"))
 end
 
 video.Video = syn and getsynasset(Name) or getcustomasset(Name)
